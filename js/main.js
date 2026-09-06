@@ -207,8 +207,8 @@ document.addEventListener('DOMContentLoaded', () => {
       oneLiner: 'A federated AI platform prototype for coordinating public health resources during a crisis.',
       description: 'A federated AI platform prototype for coordinating public health resources during a crisis.',
       builtWith: ['React', 'Firebase', 'TensorFlow.js', 'Gemini API', 'Data Visualization'],
-      liveLink: '#contact',
-      sourceLink: '[https://github.com/sanjayanand/phc-federated-health]'
+      liveLink: 'https://federated-healthcare-3fcd3.web.app',
+      sourceLink: null
     },
     'legacy-rescue': {
       title: 'Legacy Rescue',
