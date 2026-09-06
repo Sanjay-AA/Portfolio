@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#1C1C1E"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <!-- macOS/iOS App Icon Stylized S/A Glyphs -->
+  <path d="M22 44C17.5817 44 14 40.4183 14 36C14 31.5817 17.5817 28 22 28H42C46.4183 28 50 24.4183 50 20C50 15.5817 46.4183 12 42 12H20" stroke="#0A84FF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 20C46.4183 20 50 23.5817 50 28C50 32.4183 46.4183 36 42 36H22C17.5817 36 14 39.5817 14 44C14 48.4183 17.5817 52 22 52H44" stroke="#5E5CE6" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="44" cy="52" r="3.5" fill="#30D158"/>
+</svg>

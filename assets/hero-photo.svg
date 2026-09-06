@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" fill="none">
+  <!-- Stylized Cutout Silhouette Placeholder -->
+  <defs>
+    <linearGradient id="silhouetteGrad" x1="250" y1="80" x2="250" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2c2c30"/>
+      <stop offset="60%" stop-color="#1c1c20"/>
+      <stop offset="100%" stop-color="#121214"/>
+    </linearGradient>
+    <linearGradient id="rimLightGrad" x1="100" y1="100" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A84FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#5E5CE6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0A84FF" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="softBlueGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Rim Light Aura Behind Silhouette -->
+  <path d="M250 110 C200 110 160 150 160 210 C160 270 190 310 210 330 C150 360 90 410 70 520 C60 575 80 620 100 620 L400 620 C420 620 440 575 430 520 C410 410 350 360 290 330 C310 310 340 270 340 210 C340 150 300 110 250 110 Z" 
+        stroke="url(#rimLightGrad)" stroke-width="4" filter="url(#softBlueGlow)" fill="none" opacity="0.9"/>
+
+  <!-- Main Subject Body / Shoulder / Head Silhouette -->
+  <path d="M250 115 C205 115 168 152 168 210 C168 268 198 308 218 328 C158 358 98 408 78 518 C70 568 85 620 105 620 L395 620 C415 620 430 568 422 518 C402 408 342 358 282 328 C302 308 332 268 332 210 C332 152 295 115 250 115 Z" 
+        fill="url(#silhouetteGrad)"/>
+
+  <!-- Subtle Minimalist Facial & Shoulder Highlights -->
+  <path d="M190 200 C200 180 230 170 250 170 C270 170 300 180 310 200" stroke="rgba(255,255,255,0.12)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M250 200 L250 250 L240 260 L260 260" stroke="rgba(255,255,255,0.08)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M230 280 Q250 295 270 280" stroke="rgba(255,255,255,0.1)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Sleek Glasses / Designer Accent -->
+  <rect x="205" y="195" width="36" height="24" rx="6" stroke="#0A84FF" stroke-width="2.5" fill="rgba(10, 132, 255, 0.08)"/>
+  <rect x="259" y="195" width="36" height="24" rx="6" stroke="#0A84FF" stroke-width="2.5" fill="rgba(10, 132, 255, 0.08)"/>
+  <line x1="241" y1="207" x2="259" y2="207" stroke="#0A84FF" stroke-width="2.5"/>
+
+  <!-- Left/Right Rim Light Edges -->
+  <path d="M168 210 C168 268 198 308 218 328 C158 358 98 408 78 518" stroke="#0A84FF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M332 210 C332 268 302 308 282 328 C342 358 402 408 422 518" stroke="#5E5CE6" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>
