@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
       oneLiner: 'A brand website for an embroidery studio, built to showcase their work and take custom orders.',
       description: 'A brand website for an embroidery studio, built to showcase their work and take custom orders.',
       builtWith: ['HTML5/CSS3', 'JavaScript', 'Figma', 'Custom Order UI'],
-      liveLink: '[https://a2sembroidery.example.com]',
+      liveLink: 'https://a2-s-swart.vercel.app/',
       sourceLink: null
     },
     'aurelia': {
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
       oneLiner: 'A portfolio website for an interior designer, designed to feel as considered as her own work.',
       description: 'A portfolio website for an interior designer, designed to feel as considered as her own work.',
       builtWith: ['React', 'CSS Modules', 'Figma', 'Framer Motion'],
-      liveLink: '[https://aurelia-interiors.example.com]',
+      liveLink: 'https://aurelia2-murex.vercel.app/',
       sourceLink: null
     },
     'design-debt-auditor': {
@@ -235,15 +235,13 @@ document.addEventListener('DOMContentLoaded', () => {
         'The Queen RED.jpg',
         'The Queen 3.png',
         'Poster Design THE PARADISE.png',
-        'RIGHT GUIDANCE.png',
         'EARBUDS-Recovered.png',
         'Headphones poster.png',
         'Choco Shake.png',
         'Cartoon poster.png',
         'burger poster.png',
         'ghost.jpg',
-        'shoe.png',
-        'Untitled design.png'
+        'shoe.png'
       ].map(file => {
         const name = file.replace(/\.[^/.]+$/, '').replace(/[-_]/g, ' ');
         return {
